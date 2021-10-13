@@ -1,0 +1,92 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    background-color: hsl(233, 47%, 7%);
+    width: 100%;
+    font-family: "Inter", sans-serif;
+}
+
+.card {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    width: 75%;
+    border-radius: 10px;
+    margin: 12.9rem auto;
+    background-color: hsl(244, 38%, 16%);
+}
+
+.heading {
+    color: white;
+    margin-bottom: 1em;
+}
+
+.highlighted-text {
+    color: hsl(277, 64%, 61%);
+}
+
+.promo-text {
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+.text-box {
+    padding: 4em 5em 4em 4em;
+    text-align: left;
+}
+
+.stats-box {
+    margin-top: 5em;
+}
+
+.stats-info {
+    color: white;
+    font-size: 1.3em;
+    font-weight: bold;
+    list-style-type: none;
+}
+
+.stats-info li {
+    display: inline-block;
+}
+
+.stats-info-nth {
+    margin-left: 2em;
+}
+
+.stats-numbers {
+    color: white;
+    font-family: "Lexend Deca", sans-serif;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+.stats-caption {
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: "Lexend Deca", sans-serif;
+    font-size: 0.6em;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-top: 5px;
+}
+
+.promo-image-box {
+    grid-column: 2 / 3;
+    height: 100%;
+    width: 100%;
+}
+
+.promo-image-box img {
+    height: 100%;
+    width: 100%;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
