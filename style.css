@@ -103,7 +103,7 @@ body {
     position: relative;
 }
 
-@media (max-width:1190px) {
+@media (max-width:890px) {
     .card {
         display: grid;
         grid-template-columns: 100%;
